@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.Core" Version="7.2.0.1422" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="C1.WPF.4">
+      <HintPath>C:\Program Files (x86)\ComponentOne\WPF Edition\bin\v4\C1.WPF.4.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="C1.WPF.C1Chart.4">
+      <HintPath>C:\Program Files (x86)\ComponentOne\WPF Edition\bin\v4\C1.WPF.C1Chart.4.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="C1.WPF.DateTimeEditors.4">
+      <HintPath>C:\Program Files (x86)\ComponentOne\WPF Edition\bin\v4\C1.WPF.DateTimeEditors.4.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="C1.WPF.FlexGrid.4">
+      <HintPath>C:\Program Files (x86)\ComponentOne\WPF Edition\bin\v4\C1.WPF.FlexGrid.4.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="C1.WPF.FlexGridFilter.4">
+      <HintPath>C:\Program Files (x86)\ComponentOne\WPF Edition\bin\v4\C1.WPF.FlexGridFilter.4.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="C1.WPF.RichTextBox.4">
+      <HintPath>C:\Program Files (x86)\ComponentOne\WPF Edition\bin\v4\C1.WPF.RichTextBox.4.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="C1.WPF.RichTextBox.Toolbar.4">
+      <HintPath>C:\Program Files (x86)\ComponentOne\WPF Edition\bin\v4\C1.WPF.RichTextBox.Toolbar.4.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
+  
